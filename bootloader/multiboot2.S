@@ -1,7 +1,7 @@
 .file "multiboot2.S"
 
 .section .multiboot2, "a", @progbits
-  .align 8
+  .balign 8
 
   .globl multiboot_header
   .type multiboot_header, @object
