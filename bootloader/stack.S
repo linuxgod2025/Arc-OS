@@ -26,3 +26,4 @@
     andl $0xFFFFFFF0, %esp
     subl $4, %esp
     ret
+  .size init_stack, . - init_stack
