@@ -17,7 +17,7 @@
   .globl boot_stack_top
 
 .section .text, "ax", @progbits
-  .blign 4096
+  .balign 4096
   .globl init_stack
   .type init_stack, @function
 
